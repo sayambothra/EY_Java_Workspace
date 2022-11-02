@@ -36,8 +36,9 @@ public class TestSteps {
 //		  WebElement uname=driver.findElement(By.id("username"));
 //			uname.clear();
 //			uname.sendKeys("vasuvespag");
-		
+		System.out.println("Enter user name");
 		loginpg.enterUname("vasuvespag");
+		
 		
 	}
 
