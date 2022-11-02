@@ -28,7 +28,7 @@ public class TestSteps {
 		driver.get("http://adactinhotelapp.com");
 		driver.manage().window().maximize();
 		loginpg =new LoginPage(driver);
-	}
+		System.out.println("In the Hotel App Home Page");	}
 
 	@When("user enters username")
 	public void user_enters_username() {
